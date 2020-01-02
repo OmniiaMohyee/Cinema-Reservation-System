@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Movies </title>
+    </head>
+    <body>
+    {%for movie in movies%}
+    <h1> {{movie.movie_name}}</h1>
+    <p>{{movie.genre}} // {{movie.duration}} // {{movie.screen_number}}</p>
+    {% endfor %}        
+    </body>
+</html>
